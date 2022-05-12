@@ -1,0 +1,6 @@
+[Unit]
+    Description=Backup service
+
+[Service]
+    Type=oneshot
+    ExecStart=sudo -u backuper /usr/local/bin/backup.sh -s /var/lib/service -d /var/backups/service-backups

@@ -1,0 +1,6 @@
+[Unit]
+    Description=Cleanup old Foo data
+
+[Service]
+    Type=oneshot
+    ExecStart=/home/heirat/systemd-work/one-shot-service.bash

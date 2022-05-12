@@ -1,0 +1,8 @@
+[Unit]
+Description=My First Service youhoo
+
+[Service]
+ExecStart=/home/heirat/systemd-work/long-living-app.py
+
+[Install]
+WantedBy=multi-user.target

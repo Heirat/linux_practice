@@ -1,0 +1,6 @@
+[Unit]
+    Description=Run every wednesday
+
+[Timer]
+    OnCalendar=Wed *-*-* 0:0:30
+    Persistent=true

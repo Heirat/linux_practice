@@ -1,0 +1,6 @@
+[Unit]
+Description=Run every 60 sec
+
+[Timer]
+OnBootSec=15min
+OnUnitActiveSec=1w
